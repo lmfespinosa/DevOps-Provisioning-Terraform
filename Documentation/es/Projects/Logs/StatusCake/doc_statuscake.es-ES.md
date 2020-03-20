@@ -27,10 +27,10 @@ Para conseguir estos datos nos debemos dirigir a la página web (https://www.sta
 Una vez registrados, nos vamos al "User Panel" y obtenemos los datos:
 
 * statuscake_username
-[logo]: ../../../../../images/Projects/StatusCake/StatusCake_4.png "Username"
+[logo]: ../../../images/Projects/StatusCake/StatusCake_4.png "Username"
 
 * statuskey_apikey
-[logo]: ../../../../../images/Projects/StatusCake/StatusCake_5.png "key"
+[logo]: ../../../images/Projects/StatusCake/StatusCake_5.png "key"
 
 Una vez actualizado el script, efectuamos los siguientes pasos:
 
@@ -39,22 +39,22 @@ Una vez actualizado el script, efectuamos los siguientes pasos:
 ```
 terraform.exe init
 ```
-[logo]: ../../../../../images/Projects/StatusCake/StatusCake_0.png "Inicialización de estado"
+[logo]: ../../../images/Projects/StatusCake/StatusCake_0.png "Inicialización de estado"
 
 2. Aplicamos el aprovisionamiento mediante el comando:
 ```
 terraform.exe apply
 ```
-[logo]: ../../../../../images/Projects/StatusCake/StatusCake_1.png "Inicio de provisionamiento"
+[logo]: ../../../images/Projects/StatusCake/StatusCake_1.png "Inicio de provisionamiento"
 
 3. Confirmamos el plan (al ser un script básico no se ha defindo) y al inicializar el estado, Terraform ha creado un plan "por defecto" y espera nuestra confirmación, por tanto, confirmamos:
 ```
 yes [ENTER]
 ```
-[logo]: ../../../../../images/Projects/StatusCake/StatusCake_2.png "Finalización del provisionamiento sin errores"
+[logo]: ../../../images/Projects/StatusCake/StatusCake_2.png "Finalización del provisionamiento sin errores"
 
 4. Verificamos en StatusCake el resultado de la prueba:
-[logo]: ../../../../../images/Projects/StatusCake/StatusCake_3.png "Resultado OK de la prueba"
+[logo]: ../../../images/Projects/StatusCake/StatusCake_3.png "Resultado OK de la prueba"
 
 
 
