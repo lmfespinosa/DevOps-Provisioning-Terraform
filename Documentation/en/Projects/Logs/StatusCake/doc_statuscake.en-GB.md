@@ -47,7 +47,7 @@ terraform.exe init
 ```
 terraform.exe apply
 ```
-![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_1.png, "Init Provisioning")
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_1.png)
 
 3. confirm the plan (being a basic script has not been defined) and when initializing the state, Terraform has created a plan "by default" and awaits our confirmation, therefore, we confirm:
 ```
