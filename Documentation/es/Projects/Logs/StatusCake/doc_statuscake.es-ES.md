@@ -27,7 +27,7 @@ Para conseguir estos datos nos debemos dirigir a la página web (https://www.sta
 Una vez registrados, nos vamos al "User Panel" y obtenemos los datos:
 
 * statuscake_username
-![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_4.png)
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_4.png)
 
 * statuskey_apikey
 ![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_5.png)

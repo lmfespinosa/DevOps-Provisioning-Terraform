@@ -2,8 +2,8 @@
 
 # Idioma de la ayuda del repositorio
 
-* [English](README.en-GB.md)
-* [Spanish](README.md)
+* [Inglés](README.en-GB.md)
+* [Español](README.md)
 
 
 ## Documentación Oficial
