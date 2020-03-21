@@ -26,11 +26,13 @@ Antes de la ejecución del scrit, deberemos de sustituir dentro del propio scrip
 Para conseguir estos datos nos debemos dirigir a la página web (https://www.statuscake.com/) y registrarnos.
 Una vez registrados, nos vamos al "User Panel" y obtenemos los datos:
 
-* statuscake_username
+* statuscake_username:
+
 ![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_4.png)
 
-* statuskey_apikey
-![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_5.png)
+* statuskey_apikey:
+
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_5.png)
 
 Una vez actualizado el script, efectuamos los siguientes pasos:
 
@@ -39,22 +41,22 @@ Una vez actualizado el script, efectuamos los siguientes pasos:
 ```
 terraform.exe init
 ```
-![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_0.png)
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_0.png)
 
 2. Aplicamos el aprovisionamiento mediante el comando:
 ```
 terraform.exe apply
 ```
-![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_1.png) 
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_1.png) 
 
 3. Confirmamos el plan (al ser un script básico no se ha defindo) y al inicializar el estado, Terraform ha creado un plan "por defecto" y espera nuestra confirmación, por tanto, confirmamos:
 ```
 yes [ENTER]
 ```
-![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_2.png )
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_2.png)
 
 4. Verificamos en StatusCake el resultado de la prueba:
-![logo](https://github.com/lmfespinosa/DevOps-Provisioning-Terraform/tree/master/Documentation/images/Projects/StatusCake/StatusCake_3.png )
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_3.png)
 
 
 
