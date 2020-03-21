@@ -26,11 +26,13 @@ Before the scrit execution, ypu have to replace the next parameters into the scr
 For have this requeriment, you have to go to the Web Page (https://www.statuscake.com/) and register your account.
 Once Registerd, you should go to "User Panel" and check the parameters:
 
-* statuscake_username
-[logo]: https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_4.png "Username"
+* statuscake_username:
 
-* statuskey_apikey
-[logo]: https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_5.png "key"
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_4.png)
+
+* statuskey_apikey:
+
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_5.png)
 
 Once the script has been updated, we carry out the following steps:
 
@@ -39,19 +41,20 @@ Once the script has been updated, we carry out the following steps:
 ```
 terraform.exe init
 ```
-[logo]: https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_0.png "Inicialización de estado"
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_0.png)
 
 2. Execute the provissioning command:
 ```
 terraform.exe apply
 ```
-[logo]: https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_1.png "Inicio de provisionamiento"
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_1.png, "Init Provisioning")
 
 3. confirm the plan (being a basic script has not been defined) and when initializing the state, Terraform has created a plan "by default" and awaits our confirmation, therefore, we confirm:
 ```
 yes [ENTER]
 ```
-[logo]: https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_2.png "Finalización del provisionamiento sin errores"
+![logo](https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_2.png )
 
 4. Check in StatusCake page the result of the test:
-[logo]: https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_3.png "Resultado OK de la prueba"
+
+![logo]( https://raw.githubusercontent.com/lmfespinosa/DevOps-Provisioning-Terraform/master/Documentation/images/Projects/StatusCake/StatusCake_3.png )
