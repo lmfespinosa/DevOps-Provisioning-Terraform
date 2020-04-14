@@ -27,6 +27,13 @@ https://www.terraform.io/downloads.html
 
 * [StatusCake Integration](Documentation/en/Projects/Logs/StatusCake/doc_statuscake.en-GB.md)
 
+### Cloud infrastructure
+
+#### AWS 
+
+* [MEAN Infrastructure](Documentation/en/Projects/AWS/MEAN/doc_mean_infrastructure.en-GB.md)
+
+
 ## Authors
 
 * **Luis Miguel Fernández** - *Initial work* - [lmfespinosa](https://github.com/lmfespinosa)

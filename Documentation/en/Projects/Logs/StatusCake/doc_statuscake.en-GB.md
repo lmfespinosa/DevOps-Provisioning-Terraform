@@ -18,7 +18,7 @@ You can find the script at:
 
 ## Execution Steps
 
-Before the scrit execution, ypu have to replace the next parameters into the script:
+Before the scrit execution, you have to replace the next parameters into the script:
 
 * statuscake_username
 * statuskey_apikey
